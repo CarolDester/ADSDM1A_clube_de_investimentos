@@ -1,11 +1,11 @@
-/*Seletor Universal*/
+
 * {
 	font-family: 'Rubik', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
   }
-  /*Seletor de Elemento (body, header, nav, main.)*/
+
   body {
 	background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/12/home_desk_v2_cdb150.png);
 	background-color: #121212;
@@ -20,7 +20,7 @@
 	display: flex;
   }
   
-  /*Seletor de ID (#logo, #openMenu, #closeMenu)*/
+
   header #logo {
 	display: flex;
 	flex: 0 1 300px;
@@ -29,7 +29,7 @@
 	align-items: center;
   }
   
-  /*Seletor de Classe (.Menu_button, .menu-open, .formLogin.)*/
+
   .Menu_button {
 	display: flex;
 	flex: 0 1 200px;
@@ -162,7 +162,7 @@
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 7px;
-    padding: 20px; /* Reduzindo o padding para 20px */
+    padding: 20px; 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     gap: 1px;
 }
@@ -171,22 +171,22 @@
     padding: 0;
     margin: 0;
     font-weight: 500;
-    font-size: 40px; /* Reduzindo o tamanho da fonte para 2em */
+    font-size: 40px; 
     color: #000;
 }
 
 .formCadastro p {
     display: inline-block;
-    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    font-size: 16px; 
     color: #666;
-    margin-bottom: 15px; /* Reduzindo a margem inferior para 15px */
+    margin-bottom: 15px; 
 }
 
 .formCadastro input {
-    padding: 5px; /* Reduzindo o padding para 10px */
-    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    padding: 5px; 
+    font-size: 16px; 
     border: 1px solid #ccc;
-    margin-bottom: 10px; /* Reduzindo a margem inferior para 15px */
+    margin-bottom: 10px;
     margin-top: 5px;
     border-radius: 4px;
     transition: all linear 160ms;
@@ -198,7 +198,7 @@
 }
 
 .formCadastro label {
-    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    font-size: 16px;
     font-weight: 600;
     color: #000;
 }
@@ -209,14 +209,18 @@
 }
 
 .btn {
-    background-color: #fbc105;
-    color: #000000;
-    font-size: 14px; /* Reduzindo o tamanho da fonte para 14px */
-    font-weight: 600;
-    border: none !important;
-    transition: all linear 160ms;
-    cursor: pointer;
-    margin: 0 !important;
+	display: flex;
+	flex: 0 1 50px;
+	justify-content: center;
+	align-items: center;
+	padding: 1px 1px;
+	font-size: 16px;
+	background-color: #fbc105;
+	color: #000000;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
 }
 
 .btn:hover {

@@ -1,5 +1,5 @@
 
-/*Seletor Universal*/
+
 * {
 	font-family: "Rubik", sans-serif;
 	margin: 0;
@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 	
 }
-/*Seletor de Elemento (body, header, nav, main.)*/
+
 body {
 	background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/12/home_desk_v2_cdb150.png);
 
@@ -24,7 +24,6 @@ header {
 	display: flex;
 }
 
-/*Seletor de ID (#logo, #openMenu, #closeMenu)*/
 header #logo {
 	display: flex;
 	flex: 0 1 300px;
@@ -33,9 +32,6 @@ header #logo {
 	align-items: center;
 }
 
-
-
-/*Seletor de Classe (.Menu_button, .menu-open, .formLogin.)*/
 .Menu_button {
 	display: flex;
 	flex: 0 1 200px;
