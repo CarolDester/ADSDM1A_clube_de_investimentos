@@ -1,0 +1,227 @@
+/*Seletor Universal*/
+* {
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  /*Seletor de Elemento (body, header, nav, main.)*/
+  body {
+	background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/12/home_desk_v2_cdb150.png);
+	background-color: #121212;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 1vw;
+  }
+  
+  header {
+	flex: 1 1 100vw;
+	background: #121212;
+	display: flex;
+  }
+  
+  /*Seletor de ID (#logo, #openMenu, #closeMenu)*/
+  header #logo {
+	display: flex;
+	flex: 0 1 300px;
+	background: #121212;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /*Seletor de Classe (.Menu_button, .menu-open, .formLogin.)*/
+  .Menu_button {
+	display: flex;
+	flex: 0 1 200px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #fbc105;
+	color: #000000;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+  }
+  
+  .Menu_button:hover {
+	background-color: #eedb9b;
+	transform: scale(1.05);
+  }
+  
+  #openMenu,
+  #closeMenu {
+	border: none;
+	background: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+	display: none;
+  }
+  
+  nav {
+	background: #121212;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 1 1 200px;
+	margin: 0px;
+	color: #ffffff;
+  }
+  
+  nav a {
+	margin: 0 3%;
+	font-size: 16pt;
+  }
+  
+  main {
+	display: flex;
+	flex: 1 1 500px;
+	height: 500px;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+  }
+  
+  a {
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  @media only screen and (max-width: 717px) {
+	#openMenu,
+	#closeMenu {
+	  display: block;
+	  color: #ffffff;
+	}
+  
+	#openMenu {
+	  margin-left: auto;
+	}
+  
+	#closeMenu {
+	  margin-left: auto;
+	  position: fixed;
+	  right: 15px;
+	  top: 15px;
+	}
+  
+	header {
+	  order: 0;
+	}
+  
+	nav {
+	  order: 1;
+	  position: fixed;
+	  width: 100vw;
+	  height: 100vh;
+	  background: #121212;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  display: none;
+	  opacity: 1;
+	  transition: 0.3s;
+	  z-index: 1;
+	}
+  
+	nav a {
+	  margin: 3%;
+	  align-items: center;
+	}
+  
+	.Menu_button {
+	  display: flex;
+	  flex: 0 1 10px;
+	  justify-content: center;
+	  align-items: center;
+	  padding: 10px 20px;
+	  font-size: 16px;
+	  background-color: #fbc105;
+	  color: #000000;
+	  border: none !important;
+	  cursor: pointer;
+	  font-weight: 600;
+	  transition: all linear 160ms;
+	  margin: 0 !important;
+	}
+  
+	.Menu_button:hover {
+	  background-color: #eedb9b;
+	  transform: scale(1.05);
+	}
+  }
+  
+  .formCadastro {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px; /* Reduzindo o padding para 20px */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    gap: 1px;
+}
+
+.formCadastro h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px; /* Reduzindo o tamanho da fonte para 2em */
+    color: #000;
+}
+
+.formCadastro p {
+    display: inline-block;
+    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    color: #666;
+    margin-bottom: 15px; /* Reduzindo a margem inferior para 15px */
+}
+
+.formCadastro input {
+    padding: 5px; /* Reduzindo o padding para 10px */
+    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Reduzindo a margem inferior para 15px */
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.formCadastro input:focus {
+    border: 1px solid #000000;
+}
+
+.formCadastro label {
+    font-size: 16px; /* Reduzindo o tamanho da fonte para 14px */
+    font-weight: 600;
+    color: #000;
+}
+
+
+.formCadastro a:hover {
+    color: #fbc105;
+}
+
+.btn {
+    background-color: #fbc105;
+    color: #000000;
+    font-size: 14px; /* Reduzindo o tamanho da fonte para 14px */
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #eedb9b;
+}
+
+  
