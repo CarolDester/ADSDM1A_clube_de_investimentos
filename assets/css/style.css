@@ -6,6 +6,7 @@
 }
 
 body {
+	background-color: #121212;
 	background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/12/home_desk_v2_cdb150.png);
  	background-repeat: no-repeat;
 	display: flex;
