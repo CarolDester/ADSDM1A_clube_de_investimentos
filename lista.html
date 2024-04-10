@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/lista.css">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<title>Abra sua conta</title>
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo"> <img src="assets/img/logo_1080_360.gif" width="180" height="72"></a>
+		<button id="openMenu">&#9776;</button>
+		<nav id="menu">
+			<button id="closeMenu">X</button>
+			<a href="sobre.html">Sobre</a>
+			<a href="contato.html">Contatos</a>				
+			<a href="acesse_sua_conta.html">Acesse sua conta</a>
+			<a href="abra_conta.html" class="Menu_button">Abra sua conta</a>
+		</nav>
+	</header>
+	<main>
+		<div class="pageCadastro">
+			<form method="POST" class="formCadastro">
+			  <h1>Lista de presença </h1>
+			  <br>
+			  <p>Como foi seu Encontro.</p>
+			
+              <label for="nome">Nome completo</label>
+              <input type="text" placeholder="Digite seu nome completo" required />
+
+              <label for="cpf">Seu ID</label>
+                <input type="number" placeholder="Digite seu ID" required />
+
+                <label for="dataNascimento">Dia do encontro</label>
+                <input type="date" placeholder="Dia do encontro" required />
+
+			<label for="story">Feedback:</label>
+
+            <textarea id="story" name="story" rows="5" cols="33">
+            Deixe seu Feedback
+            </textarea>
+            <br>
+            <p>Poste suas fotos e vídeos sobre os encontros:</p>
+            <label class="picture" for="picture__input" tabIndex="0">
+                <span class="picture__image"></span>
+              </label>
+              
+              <input type="file" name="picture__input" id="picture__input">
+
+            
+			
+              <a href="encontros.html" id="linkDestino" style="display: none;"></a>
+              <input type="submit" value="Acessar" class="btn" id="btnAcessar"/>
+			</form>
+		  </div>
+	</main>
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+</body>
+
+
+
