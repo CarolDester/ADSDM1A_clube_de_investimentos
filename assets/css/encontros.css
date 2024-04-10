@@ -233,13 +233,18 @@
 
   
 
-
 .fts-encontros{
 	color: #ffffff;
 	font-size: 32px;
-	border-color: #ada5a5;
+	left: 50%;
 }
 .ft-encontros{
+	width: 500px;
+	height: 500px;
+	border-radius: 5%;
+	
+}
+.ft-encontros2{
 	width: 500px;
 	height: 500px;
 	border-radius: 5%;
