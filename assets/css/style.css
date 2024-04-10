@@ -14,7 +14,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	align-items: flex-start;
 }
 
 header {
@@ -263,7 +262,7 @@ a {
 	grid-template-columns: repeat(3, 1fr) ;
 	flex-wrap: wrap;
 	max-width: 980px;
-	margin: 50vh;
+	margin: 45vh;
 	grid-gap: 40px;
 }
 .card{
@@ -287,12 +286,12 @@ a {
 
 .h2-cards{
 	position: absolute;
-	top: 1690px;
+	top: 1800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 40px;
-	left: 50vh;
+	left: 60vh;
 	color: #ffffff;
 }
 
