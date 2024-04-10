@@ -235,7 +235,9 @@
 
 
 .fts-encontros{
-	color: white;
+	color: #ffffff;
+	font-size: 32px;
+	border-color: #ada5a5;
 }
 .ft-encontros{
 	width: 500px;
