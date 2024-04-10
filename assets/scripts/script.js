@@ -18,3 +18,12 @@ closeMenu.addEventListener('click', () => {
 })
 
 
+/*Acessar*/
+document.getElementById("btnAcessar").addEventListener("click", function(event) {
+	event.preventDefault(); // Previne o envio do formulário
+	// Redireciona para a página de destino
+	document.getElementById("linkDestino").click();
+});
+
+
+
