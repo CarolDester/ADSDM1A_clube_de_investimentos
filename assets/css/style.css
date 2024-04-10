@@ -303,6 +303,7 @@ a {
 
 
 
+
 .footer{
 	background-color: #ffffff;
 	color: #000000;
@@ -320,6 +321,17 @@ a {
 	display: flex;
 	align-items: center;
 }
+
+
+.ft-encontros{
+	display: flex;
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	flex-wrap: wrap;
+	top: 2500px;
+}
+
 
 
 
