@@ -1,133 +1,252 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-	<title>GOLPIX</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLPIX</title>
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    
 </head>
 <body>
-	<header>
-		<a href="index.html" id="logo"> <img src="assets/img/logo_1080_360.gif" width="180" height="72"></a>
-		<button id="openMenu">&#9776;</button>
-		<nav id="menu">
-			<button id="closeMenu">X</button>
-			<a href="sobre.html">Sobre</a>
-			<a href="contato.html">Contatos</a>				
-			<a href="acesse_sua_conta.html">Acesse sua conta</a>
-			<a href="abra_conta.html" class="Menu_button">Abra sua conta</a>
-		</nav>
-	</header>
-	<main>
-		<div class="Pagina_Home">
-			<h1 class="Título_Home">
-				<span>
-					<p>
-						<span class="CDB_Home" dir="ltr">
-							<span>
-								<strong>CDB 150%</strong>
-							</span>
-						</span>
-					</p>
-		</span></h1>
-		<h2 class="Título_h2_Home">
-			<span>
-				<p>
-					<span>
-						<strong>Invista<span class="h2_Destaque"> até R$ 80 mil,</span><br>com segurança e liquidez diária</strong>
-					</span>
-				</p>
-			</span>
-		</h2>
-		<div class="Home_buttons">
-			<div>
-				<button role="button" class="Home_Abra_sua_conta" onclick="window.location.href='abra_conta.html';">Abra sua conta</button>
+    <header class="fixed-top">
+        <div class="container " id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top ">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo_1080_360.gif" alt="logo GOLPIX" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-explanded="false" aria-label="toggle navigaton">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="sobre.html" class="nav-item nav-link" id="sobre-menu">Sobre</a>
+			            <a href="contato.html" class="nav-item nav-link" id="contatos-menu">Contatos</a>				
+		            	<a href="acesse_sua_conta.html" class="nav-item nav-link" id="acesse_sua_conta-menu">Acesse sua conta</a>
+		            	<a href="abra_conta.html" class="nav-item nav-link" id="abra_conta-menu" style="color: black;">Abra sua conta</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="about-area">
+            <div class="container ">
+                <div class="conteudo-cdb-txt row">
+                    <div class="col-md-6">
+                        <h1 class="conteudo-cdb">CBD 150%</h1>
+                        <strong class="conteudo-invista">Invista<span class="h2_Destaque"> até R$ 80 mil,</span><br>com segurança e liquidez diária</strong>
+                        <div class="Home_buttons">
+                            <div>
+                                <button role="button" class="Home_Abra_sua_conta" onclick="window.location.href='abra_conta.html';">Abra sua conta</button>
+                
+                            </div>
+                        </div>
+                        <div class="Home_responsabilidade">
+                            <span>
+                        <p>
+                            <span>Rendimento com relação ao CDI Bruto <br>  Emissor Banco XP e carência de 1 dia.
+                            </span>
+                        </p>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="conteudo-img-grafico-SIMULE">
+                            <img src="https://s3-alpha-sig.figma.com/img/12cc/0d89/b352e7f022baae04a69bace22750d6b3?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AM2N94Y6Co4HIp6YcRfDiwEt93eYj4ntXOv2snxIIbofH7~uXDLNDXlSTRzTqiURBWCOHOOK9ZwHlnu43pjUq6qWkWUs4QRQDSmNrHbGsvagQuQ49VTu0F3SqHYqqm1JUQVwufjW-IVA6zJEllIPiCTgT0n2G8D~uGL4sliXJ2-3J7DECSib2OvWvCadV3pFNy3d2wt7m92PXgl6Up8WwW18jNzOCfnAu56KsZOb~wYbrM1IbznN0jEtPS85VnyVp3LMCWIznobBaaw98JX0A4s~BGRKvZXaKbBDXaoF8DBDxWadIXvvWUdCn4PrNX4dHOqK45iPKbHF2RgDDleWCA__" alt="">
+                            <div class="conteudo-grafico-SIMULE">
+                                <p> <strong>SIMULE GRÁTIS</strong> quanto o seu 
+                                    dinheiro pode render na GOLPIX <br> <br>
+                                    Simule agora</p>
+                            </div>
+                        </div>
+                        <div class="conteudo-img-grafico-Conheça">
+                            <img src="https://s3-alpha-sig.figma.com/img/a6d4/32ae/adb4ab2165507c70a6272b486a91753e?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j1MmDG0UH50uyCJzLioqu53z45Ci4euKoz-4eqRfWMFpM7b3Y6DVEup537Yo7UkJwQDiscf25IB2btVHbwJ~VNrmxaW9cQshztI5Lj8zxD5j4Cj8XSmZuCybe4zOyvnE07wu2UNKUwHmfJHOCGLEKSQwEy4TJW3lJWVsah-SUFlCYx8TcaUQV6LIiDKBtNjNxt9QxBymtvhY6b5GNqoiTIzisHK~aTJMaE2zuhEDONUGdXtPzKfqoR8gWNXdQeCej2v72XxWfxkR-p1IRZ7~RiT845O8HRe4my8RqW09AE6YfTxwDT436udcpcHJ~MW0YA1c3cODm-Ey7Mvm27TJFA__" alt="">
+                            <div class="conteudo-grafico-Conheça">
+                                <p> <strong>Conheça o CDB</strong> que pode 
+                                    render o dobro da poupança <br> <br>
+                                    Saiba mais</p>
 
-			</div>
-		</div>
-		<div class="Home_responsabilidade">
-			<span>
-		<p>
-			<span>Rendimento com relação ao CDI Bruto <br>  Emissor Banco XP e carência de 1 dia.
-			</span>
-		</p>
-		</span>
-		</div>
-		</div>
-		<section class="apelo">
-			<div class="teste">
-				<h2 class="Junte-se">Junte-se à nossa comunidade de investidores comprometidos!</h2>
-				<p class="p-golpix">Golpix é mais do que um clube de investimentos; é uma comunidade de pessoas apaixonadas por crescimento financeiro e sucesso mútuo.</p>
-				<h2 class="Junte-se">Faça parte de um grupo que investe no futuro</h2>
-				<p class="p-golpix">No Golpix, estamos comprometidos em investir no futuro de nossos membros e da sociedade, buscando oportunidades de crescimento sustentável.</p>
-				<h2 class="Junte-se">Invista com propósito no Golpix!</h2>
-				<p class="p-golpix">No Golpix, acreditamos que investir com propósito pode mudar vidas. Junte-se a nós e faça investimentos significativos que beneficiem a todos.</p>
-				<h2 class="Junte-se">Juntos, somos mais fortes no Golpix!</h2>
-				<p class="p-golpix">No Golpix, acreditamos no poder da colaboração. Junte-se a nós e faça parte de um grupo de investidores unidos em busca de sucesso financeiro.</p>
-				<h2 class="Junte-se">Transforme seu investimento em impacto social!</h2>
-				<p class="p-golpix">No Golpix, seu investimento não é apenas uma transação financeira; é uma oportunidade de fazer a diferença na sociedade, apoiando projetos e iniciativas sociais.</p>
-			</div>
-		</section>
-		<div>
-			<h2 class="h2-cards" >O que estão falando do nosso Clube?</h2>
-		</div>
-		<section class="cards">
-			<div class="card">
-				<img class="user" src="assets/img/Camila-Novaes.jpg" alt="">
-				<h3>Camila Novaes</h3>
+                    </div>
+                </div>
 
-				<div class="stars">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-				</div>
-				<P class="p-cards">Como membro do Golpix, estou aprendendo muito sobre investimentos e me sinto confiante com o apoio da comunidade.</P>
-			</div>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="about-area-financeiro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                       <div class="produtos-financeiros">
+                            <h2 class="titulo-produtos-financeiros">Produtos e serviços financeiros</h2>
+                            <p class="titulo-p-produtos">Tudo o que a XP oferece para você aproveitar as melhores oportunidades de investimentos</p>
+                       </div>
+                       <div class="aria-onde-inventir">
+                            <div class="col-12">
+                                <div class="conteudo-onde-investir">
+                                    <div class="texto-onde">
+                                        <h2 class="onde-investir">Onde Investir em 2024</h2>
+                                    <p class="p-onde-investir"><strong>Acesse o relatório e descubra onde investir em 2024</strong></p>
+                                    <p class="saiba-onde-investir"> Saiba mias</p>
+                                    </div>
 
-			<div class="card">
-				<img class="user" src="assets/img/Marina-Oliveira.jpg" alt="">
-				<h3>Marina Oliveira</h3>
+                                    <div class="img-onde-investir img-fluid"> <img src="https://s3-alpha-sig.figma.com/img/53f0/a15f/b1381e6f0bcf6943d7144373462c43aa?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qI74dF70UTv~divQwc0iFSq5~HUeLS44bIFvkwpLpRAZyeDYxIn2KSZfkNQLqz0skeCQ4kBzQPSX~zpJooajS74AGecPprw25xaFEc8sT4yAToyjEmYoo0x3bOjsnM8KTzFQLPeR5tsfBJBcNK0LtHe56K9r4PYYSewcJadmxzVgzqLoV5Y~KW0iLEh-sisEgFMsZZlnS6x1f6Z~IjU24WAyJljkKyoojHwzWqg56rtYj4Z8FYrImAB-zyy2CqjemtK41yDqjfpuX4Ws7jCbLteR1PB-7BjAqfXVbLBsj5CRgWiJiWQwyVscXuyjuQqCZme-wYK9HGGlBJN6hLEdbA__" alt="onde investir em 2024"></div>
+                                </div>
+                            </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main>
+        <div class="about-area-trasnformando-o-mercado">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main-titulo-trasformando-o-mercado">
+                            <h3 class="trasformando-o-mercado">Transformando o mercado financeiro
+                                para melhorar a vida das pessoas.</h3>
+                                <p class="p-traformando-o-mercado">Somos referência em diversidade e exclusividade de produtos,
+                                    imparcialidade, transparência e relacionamento.</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://s3-alpha-sig.figma.com/img/5868/b9f9/a2692bc6c6de7f80ea2eef71d5024764?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X33jxjunyAcf3IauExW3FOWJ0uprAfbV~wyXlm8uPm6gI8r0vc9j4Cswc4n71I99W0A7Cp7-sQsa6XKLLgBUrNAxpZKBCkDlbWzRuVuTwi2e~fpatp097zHecV4WsQlIf8xqagIoyIzS6Gj3RzHOHWE469o1NygBYG5IUX6xzhqU7cKJwTiWXfRtUIRfSvrV9urcBlJyjK5AS~M1le~nkyIS~MOMK2NO4k2o8eIObg-TpyKxuAsqFh2cHlZachXqUP9QdSM9yLUH7g2lClkV9B0jhEre1ZCFkAeeNpnnkeNhGCefdXgLeiaemZ84G6sHFGHYuypZwH0pYErfYOgP~w__" class="card-img-top" alt="...">
+                                    <div class="card-body-trasformando">
+                                        <h5>assessoria</h5>
+                                        <p class="card-text-trasformando">Com a Assessoria GOLPIX, ajudamos as pessoas nas
+                                            decisões relacionadas aos seus investimentos,
+                                            sempre de acordo com seus objetivos e perfil.</p>
+                                    </div>
+                                    </div>
+                              </div>
+                              <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://s3-alpha-sig.figma.com/img/7bab/e834/f1a6421dd9aeba1e9d51e3275e57218c?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E8ivxKCy2CEYKa9v0n5SDZjVAxwDvJKCxf6HQ-APwavIJGLW09msVisswtcTP-Gm9E3045k6Ir4u6s3GY3kynfN-Q2gP0sZk2FZ6Ad5FQBAjcNm-6z7OwN-0d7f2kLl-zC-J7BwyjnbzQ9B0wA70FqNWXeW2bDcdUqknTu7wl4m5n9su9FWuGC7yeVXpU-cT-0r38cWvZGPHENHA1WIjshdPkqYvOarA6WOrGQS7y4EA1pSqzVkyLckRnhTokKb-WKCItQGN0FsNmCgPTYzSZP9OY093Y-Ta9UcISZ3dJy47qibG4bofKFY78LcQm~C~68DPMTxA1GQuuqF-bIAKFw__" class="card-img-top" alt="...">
+                                    <div class="card-body-trasformando">
+                                        <h5>Desafiamos padrões</h5>
+                                        <p class="card-text-trasformando">Nosso time de tecnologia antecipa
+                                            tendências do mercado, 
+                                            para tornar a experiência de investir mais simples e 
+                                            acessível para todas as pessoas.</p>
+                                    </div>
+                                    </div>
+                              </div>
+                              <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://s3-alpha-sig.figma.com/img/eda4/1627/e5fbfd3fe82591e4f25f2f531b91cc00?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=myXeieo0f8bqg-rSegw4eoezC4vbRfRsDq2y2aQ4uEK3dieXZ~SFkAAfw3WKI99SLRo0mdYp6TecJuEQ0883mJVsczrpSwCiV6pcepFbAUcLMJtdCl6gF4nEg8qIWT1X5f8mEvwmwtxdKmKkC2E8mcjABClf-tGsCxE9HaMOi0yERIC328k9UUABmqQ~OnAeGjmLHimqz8N7Y5V48sPsl4eAp7LRsz65tbAywiPNb1UrVx-U5w~WVjwv~sxIGYpS-NqIPawZHXTriyyX8h0yPRSvGPMaHqEjPqjvUdcMK8UgQlhxwFw4xoXGLVNacN0L4VYLjsacdZZ0NWP-BgTIUw__" class="card-img-top" alt="...">
+                                    <div class="card-body-trasformando">
+                                        <h5>Tudo em um lugar</h5>
+                                        <p class="card-text-trasformando">Serviços financeiros a favor dos seus
+                                            investimentos. Tudo em um só lugar, para
+                                            quem investe não depender mais dos
+                                            bancos convencionais.</p>
+                                    </div>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
 
-				<div class="stars">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-				</div>
-				<P class="p-cards">No Golpix, encontro um ambiente acolhedor para expandir meu conhecimento financeiro e descobrir novas estratégias de investimento.</P>
-			</div>
+        </div>
+    </main>
+    <main>
+        <div class="about-area-cards">
+            <div class="txt-titulo-card">
+                <div class="row">
+                        <div class="col-12">
+                            <div class="comentarios">
+                                <h4 class="comentarios">O que estão falando do nosso Clube?</h4>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="card-camila col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Camila-Novaes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Camila Novaes</h5>
+                            <p class="card-text">Como membro do 
+                                Golpix, estou
+                                aprendendo muito 
+                                sobre
+                                investimentos e 
+                                me sinto confiante 
+                                com o apoio da
+                                comunidade.</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Marina-Oliveira.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Marina Oliveira</h5>
+                            <p class="card-text">No Golpix, 
+                                encontro um 
+                                ambiente 
+                                acolhedor para 
+                                expandir meu 
+                                conhecimento 
+                                financeiro e 
+                                descobrir novas
+                                estratégias de 
+                                investimento.</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Pedro-da-Silva.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Pedro da Silva</h5>
+                            <p class="card-text">Como membro do
+                                Golpix, estou
+                                sempre em busca 
+                                de oportunidades
+                                para crescer 
+                                financeiramente e 
+                                alcançar meus 
+                                objetivos de longo
+                                prazo.</p>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="roda-pe">
+                        <div>
+                            <h6 class="txt-roda-pe ">2024 Golpix - Clube de Investimentos</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<div class="card">
-				<img class="user" src="assets/img/Pedro-da-Silva.jpg" alt="">
-				<h3>Pedro da Silva</h3>
-
-				<div class="stars">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-					<img class="star" src="assets/img/star.svg" alt="">
-				</div>
-				<P class="p-cards">Como membro do Golpix, estou sempre em busca de oportunidades para crescer financeiramente e alcançar meus objetivos de longo prazo.</P>
-			</div>
-			<div>
-		</section>
-
-		
-	</main>
-	<footer class="footer">
-		<div class="rodapé">
-			<p>&copy; 2024 Golpix - Clube de Investimentos</p>
-		</div>
-	</footer>
-	<script type="text/javascript" src="assets/scripts/script.js"></script>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
-
-
-

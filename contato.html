@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/contatos.css">
-	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-	<title>Contatos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLPIX</title>
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6aaa75f494.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-	<header>
-		<a href="index.html" id="logo"> <img src="assets/img/logo_1080_360.gif" width="180" height="72"></a>
-		<button id="openMenu">&#9776;</button>
-		<nav id="menu">
-			<button id="closeMenu">X</button>
-			<a href="sobre.html">Sobre</a>
-			<a href="contato.html">Contatos</a>				
-			<a href="acesse_sua_conta.html">Acesse sua conta</a>
-			<a href="abra_conta.html" class="Menu_button">Abra sua conta</a>
-		</nav>
-	</header>
+    <header class="fixed-top">
+        <div class="container " id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top ">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo_1080_360.gif" alt="logo GOLPIX" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-explanded="false" aria-label="toggle navigaton">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="sobre.html" class="nav-item nav-link" id="sobre-menu">Sobre</a>
+			            <a href="contato.html" class="nav-item nav-link" id="contatos-menu">Contatos</a>				
+		            	<a href="acesse_sua_conta.html" class="nav-item nav-link" id="acesse_sua_conta-menu">Acesse sua conta</a>
+		            	<a href="abra_conta.html" class="nav-item nav-link" id="abra_conta-menu" style="color: black;">Abra sua conta</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
 	<main>
-		  <div class="pageContato">
-            <h1>Entre em Contato</h1>
-            <p class="P_contato">
-              Para mais informações sobre o clube de investimentos ou para
-              esclarecer dúvidas sobre nossos serviços, entre em contato conosco
-              através do seguinte endereço de e-mail: info@clubeinvest.com
-            </p>
-          </div>
+        <div class="about-area-contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="conteudo-contato">
+                            <h1 class="txt-contato">
+                                Entre em Contato
+                            </h1>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-area-contato-conteudo">
+            <div class="container text-center">
+                <div class="row row-cols-3 row-cols-lg-3 g-3 g-lg-3">
+                  <div class="col">
+                    <div class="conteudo-icon  p-3"><i class="fa-solid fa-phone"></i></div>
+                  </div>
+                  <div class="col">
+                    <div class="conteudo-icon p-3"><i class="fa-solid fa-envelope"></i></div>
+                  </div>
+                  <div class="col">
+                    <div class="conteudo-icon p-3"><i class="fa-solid fa-location-dot"></i></div>
+                  </div>
+                  <div class="col">
+                    <div class="conteudo-txt p-3"> <p ></p><strong class="Ligue">Ligue para:</strong> (61)99999-9999</p>
+                    <p><strong class="Ligue">Horários:</strong> 8:00 - 19:00</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="conteudo-txt p-3"> <p ></p><strong class="Ligue">Envie um Email: 
+                        </strong>  
+                        info@clubeinvest.com</p> </div>
+                    
+                  </div>
+                  <div class="col">
+                    <div class="conteudo-txt p-3"> <p ></p><strong class="Ligue">Venha tomar um café: </strong> <br>CLR 705 BLOCO E Loja 8 
+                        Asa Norte, Brasília - DF, 70730-555</p> </div>
+                  </div>
+                  
 	</main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="roda-pe">
+                        <div>
+                            <h6 class="txt-roda-pe ">2024 Golpix - Clube de Investimentos</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 	<script type="text/javascript" src="assets/scripts/script.js"></script>
 </body>
 

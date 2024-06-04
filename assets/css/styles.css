@@ -1,0 +1,445 @@
+/* Gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+    margin: 0;
+}
+.container {
+    padding: 40px;
+}
+
+
+/*Barra de navegação*/
+header, .navbra {
+    background-color: #121212;
+}
+ #nav-conteiner {
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+
+#logo {
+    width: 180px;
+    margin-left: 100px;
+}
+
+.navbra-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbra-brand:hover{
+    color: #fff;
+}
+
+
+
+#navbar-links a {
+    color: #fff;
+    margin-right: 100px;
+}
+
+.navbra-expand-lg .navbra-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+#abra_conta-menu {
+	
+    color: #000000;
+	padding: 10px 20px;
+    border: none !important;
+    font-weight: 600;
+	background-color: #fbc105;
+	transition: all linear 160ms;
+}
+
+#abra_conta-menu:hover {
+	background-color: #eedb9b;
+	transform: scale(1.05);
+}
+
+
+/*conteudo CDB*/
+
+#about-area {
+    background-color: #121212;
+    background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2023/12/home_desk_v2_cdb150.png);
+    margin-top: 80px;
+}
+.conteudo-cdb-txt{
+    margin-top:100px  ;
+    margin-bottom: 50px;
+}
+.conteudo-cdb{
+    font-size: 64px;
+    color: #fff;
+}
+
+.conteudo-invista {
+    color: #fff;
+    font-size: 32px;
+}
+.h2_Destaque {
+    color: #fbc105;
+}
+
+.Home_buttons button {
+    margin-top: 25px;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #fbc105;
+	color: #000000;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+}
+
+
+
+.Home_buttons button:hover {
+	background-color: #eedb9b;
+	transform: scale(1.05);
+}
+
+.Home_responsabilidade {
+    color: #fff;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+/*conteudo grafico*/
+
+.conteudo-img-grafico-SIMULE {
+    display: flex;
+    margin: 30px;
+}
+
+.conteudo-grafico-SIMULE {
+    align-items: center;
+	padding: 10px 20px;
+	font-size: 16px;
+    background: #1F1F1F;
+    color: #fff;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+    
+}
+.conteudo-grafico-SIMULE:hover{
+	padding: 10px 20px;
+	font-size: 16px;
+    background: #ffffff;
+    color: #1F1F1F;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+}
+
+
+.conteudo-grafico-Conheça {
+    align-items: center;
+	padding: 10px 20px;
+	font-size: 16px;
+    background: #ffffff;
+    color: #1F1F1F;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+}
+.conteudo-grafico-Conheça:hover{
+	padding: 10px 20px;
+	font-size: 16px;
+    background: #1F1F1F;
+    color: #ffffff;
+	border: none !important;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all linear 160ms;
+}
+
+.conteudo-img-grafico-Conheça {
+    display: flex;
+    margin: 30px;
+}
+
+/*produtos financeiros */
+.about-area-financeiro {
+    background-color: #1F1F1F;
+}
+
+.titulo-produtos-financeiros{
+    text-align: center;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 100px;
+
+}
+
+.titulo-p-produtos {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.aria-onde-inventir {
+    display: flex;
+    margin: 100px;
+    color: #000000;
+    background: #fff;
+    border-radius: 15px;
+
+}
+
+.conteudo-onde-investir {
+    display: flex;
+    justify-content:end;
+}
+
+.texto-onde {
+    color: #000000;
+    text-align: center;
+    border-radius: 15px;
+}
+.onde-investir {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.p-onde-investir {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.saiba-onde-investir {
+ font-size: 20px;
+ font-weight: 900;
+}
+
+.img-onde-investir {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+
+/*traformando o mercado */
+
+.trasformando-o-mercado {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.p-traformando-o-mercado{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 50px;
+    
+}
+
+
+.card-body-trasformando {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-text-trasformando {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*carrocel*/
+
+.about-area-cards {
+    background-color: #1F1F1F;
+    margin-bottom: 50;
+    text-align: center;
+}
+
+.comentarios {
+    color: #ffffff;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+
+    margin-top: 100px;
+    
+}
+.txt-titulo-card {
+    font-size: 64px;
+    
+}
+
+h5{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    font-size: 24px;
+}
+
+
+/*roda pe*/
+
+.txt-roda-pe {
+    text-align: center;
+    font-size: 64px;
+}
+
+
+/*Sobre*/
+
+#about-area-sobre{
+	background-color: #121212;
+	background-image: url(https://web.xpi.com.br/xp-new/wp-content/uploads/sites/18/2022/12/Quem-somos.jpg); ;
+	background-position: center center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-color: #1F1F1F;
+    margin-top: 80px;
+}
+
+.txt-sobre {
+    text-align: center;
+    color: #fbc105;
+    font-size: 64px;
+    padding: 100px 100px;
+    margin: 0px;
+}
+
+.txt-conteudo {
+    font-size: 32px;
+}
+
+/*contato*/
+
+.about-area-contato {
+	background-color: #121212;
+	background-image: url(https://img.freepik.com/fotos-premium/sucesso-na-cidade-negocios-afro-americano-estudando-em-um-predio-de-escritorios-vintage-em-nova-york_1034537-65613.jpg?w=1380); ;
+	background-position: center center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-color: #1F1F1F;
+    margin-top: 80px;
+}
+
+.txt-contato{
+    text-align: center;
+    color: #fbc105;
+    font-size: 64px;
+    padding: 200px 200px;
+    margin: 0px;
+    
+}
+
+.about-area-contato-conteudo{
+    background-color: #1F1F1F;
+}
+
+.conteudo-icon {
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.conteudo-txt {
+    font-size: 25px;
+    color: #fff;
+}
+
+.Ligue {
+    color: #fbc105;
+}
+
+/*acesse sua conta*/
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+    color: #000;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #000000;
+}
+
+.formLogin label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #fbc105;
+}
+
+.btn {
+    background-color: #fbc105;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #eedb9b;
+
+}
